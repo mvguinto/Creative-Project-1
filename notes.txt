@@ -1,5 +1,10 @@
 Gaming Review Website
 
-Colors: #
+Colors:
+	Dark Red: #400308
+	Mid Red: #590202
+	Bright Red: #A60815
+	Light Grey: #D9D9D9
+	"Black": #0D0D0D
 
 Pages: Home, Console Wars, Reviews, About
