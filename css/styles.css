@@ -1,0 +1,15 @@
+.navbar-light .navbar-toggler-icon {
+  background-image: url("/images/hamburger_button.png");
+}
+
+.bg-light {
+  background-color: #0D0D0D !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #B7B7B7;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #D9D9D9;
+}
