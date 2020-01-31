@@ -20,7 +20,7 @@ h2 {
 .content-container {
   padding: 15px;
   margin: 15px;
-  margin-bottom: 55px;
+  margin-bottom: 75px;
   background-color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
 }
@@ -71,4 +71,63 @@ h2 {
   padding-left: 15px;
   padding-right: 15px;
   font-size: 35px;
+}
+
+.image-text-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 100%;
+}
+
+.text-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.text-container h2 {
+  width: 100%;
+}
+
+.spacer {
+  height: 15px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .image-text-container img {
+    width: 25%;
+    align-self: flex-start;
+  }
+
+  .text-container {
+    width: 75%;
+    padding: 0px 15px 15px 15px;
+  }
+
+  .flip img{
+    order: 2;
+  }
+
+  .flip p{
+    order: 1;
+  }
+
+  .about {
+    align-items: center;
+  }
+
 }
