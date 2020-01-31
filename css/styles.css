@@ -13,8 +13,20 @@ h1, h2 {
   font-family: 'Stardos Stencil', cursive;
 }
 
+h2 {
+  padding-top: 15px;
+}
+
 h5 {
   width: 100%;
+  text-align: center;
+}
+
+p {
+  padding-top: 15px;
+}
+
+.disclaimer {
   text-align: center;
 }
 
@@ -61,6 +73,7 @@ h5 {
 
 .footer p {
   padding-left: 15px;
+  padding-top: 0px;
 }
 
 .footer a:link {
@@ -94,17 +107,17 @@ h5 {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
-
-}
+@media only screen and (max-width: 400px) {}
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-
-}
+@media only screen and (min-width: 401px) and (max-width: 960px) {}
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
+  h2 {
+    padding-top: 0px;
+  }
+
   .image-text-container img {
     width: 25%;
     align-self: flex-start;
@@ -113,17 +126,18 @@ h5 {
   .text-container {
     width: 75%;
     padding: 0px 15px 15px 15px;
+    align-items: center;
   }
 
-  .flip img{
+  .flip img {
     order: 2;
   }
 
-  .flip p{
-    order:3;
+  .flip p {
+    order: 3;
   }
 
-  .flip .text-container{
+  .flip .text-container {
     order: 1;
     padding-left: 0px;
   }
@@ -131,5 +145,4 @@ h5 {
   .about {
     align-items: center;
   }
-
 }
