@@ -28,6 +28,12 @@ p {
 
 .disclaimer {
   text-align: center;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.disclaimer strong {
+  color: #A60815;
 }
 
 .content-container {
