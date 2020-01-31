@@ -100,6 +100,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   text-align: left;
+  align-content: center;
 }
 
 .spacer {
