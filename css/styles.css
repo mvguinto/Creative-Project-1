@@ -71,6 +71,9 @@ p {
   color: #D9D9D9;
 }
 
+.footer a:visited {
+  color: #757575;
+}
 .footer p {
   padding-left: 15px;
   padding-top: 0px;
